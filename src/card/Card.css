@@ -1,0 +1,152 @@
+.main{
+    padding: 20px;
+    
+}
+.card-div{
+    /* font-family: "Nunito Sans"; */
+    word-wrap: break-word;
+    margin-top: 30px;
+    margin: auto;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    position: relative;
+}
+.profile{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+  /* } */ 
+.profile-details{
+    border-left: 1px dotted black;
+    /* margin-top: 70px; */
+    margin-left: 30px;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 0.7;
+}
+.icondiv{
+    text-align: right;
+    margin-right: 30px;
+}
+.icon{
+    height: 90px;
+    width: 90px;
+}
+.profile-details>h1+h2{
+    font-weight: 500;
+}
+.profile-details>h1+h2+h2{
+    color: red;
+}
+.profile-details>h1+h2+h2+h2{
+    font-weight: 200;
+    font-style: italic;
+}
+.media{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+}
+.contact-details{
+    text-align: left;
+    margin: 20px;
+}
+.email-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 0.2;
+}
+.mobile-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    line-height: 0.2;
+}
+.mobile-icon{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: red;
+}
+.text-style>h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.text-style>h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+.savebtn{
+    color: white;
+    background-color: #c5261b;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 20px;
+    font-size: 22px;
+    position: fixed;
+    left: 40%;
+    top: 88%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .card-div{
+        width: 90%;
+    }
+    .profile-details{
+        font-size: 10px;
+    }
+    .icon{
+        height: 40px;
+        width: 40px;
+    }
+    .savebtn{
+        width: 50%;
+        left: 25%;
+    }
+    .media{
+        font-size: 10px;
+    }
+    .mobile-icon{
+        height: 40px;
+        width: 40px;
+    }
+    .text-style>h3{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .text-style>h4{
+        font-weight: 300;
+        font-size: 15px;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 601 pixels and a maximum width of 900 pixels */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .card-div{
+        width: 90%;
+    }
+    .icon{
+        height: 80px;
+        width: 80px;
+    }
+    .savebtn{
+        width: 50%;
+        left: 25%;
+    }
+  }
