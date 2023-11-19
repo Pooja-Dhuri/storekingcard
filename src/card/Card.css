@@ -36,9 +36,9 @@
     line-height: 0.7;
 }
 .icondiv{
-    position: absolute;
+    /* position: absolute;
     top: 55%;
-    right: 0;
+    right: 0; */
     text-align: right;
     margin-right: 30px;
 }
@@ -136,6 +136,12 @@
         font-weight: 400;
         font-size: 15px;
     }
+    .wave1 {
+        top: 42%;
+     } 
+     .wave2 {
+        top: 44%;
+     }
     .text-style>h4{
         font-weight: 300;
         font-size: 15px;
