@@ -19,12 +19,12 @@
 }
 .wave1 {
     position: absolute;
-    top: 38%;
+    top: 43%;
     left: 0;
  } 
  .wave2 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 0;
  }
 .profile-details{
@@ -36,6 +36,9 @@
     line-height: 0.7;
 }
 .icondiv{
+    position: absolute;
+    top: 55%;
+    right: 0;
     text-align: right;
     margin-right: 30px;
 }
